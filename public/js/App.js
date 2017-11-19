@@ -17,8 +17,7 @@ import { HotelList } from './components/hotel-list/hotelList.js';
    * @return {void}
    */
   const init = () => {
-    let container = document.querySelector( '.hotels-container' );
-    let hotels = new HotelList( container );
+    let hotels = new HotelList();
     hotels.loadHotelList();
   };
 

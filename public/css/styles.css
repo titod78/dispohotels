@@ -10,9 +10,7 @@ h1 {
 }
 
 .hotel-detail {
-  position: relative;
-  left: 460px;
-  z-index: 1;
+  float: right;
 }
 
 .hotel-detail-name {
@@ -43,4 +41,59 @@ h1 {
 
 .rating_5 {
   background-position: 0px -89px;
+}
+
+ul.hotel-list {
+  position: relative;
+  background: #fff;
+  width: 250px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+
+  -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hotel-list li a {
+  width: 225px;
+  padding-left: 20px;
+  height: 50px;
+  line-height: 50px;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #686868;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.hotel-list li a:hover {
+  background: #efefef;
+}
+
+.hotel-list .selected {
+  background: #efefef;
+}
+
+a {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  font-size: 12px;
+  font-family: Arial, Helvetica;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
 }

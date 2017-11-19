@@ -1,3 +1,7 @@
+/**
+ * Mock data
+ * @type {Object}
+ */
 const list = {
   '1': {
     'name': 'Hotel Sunny Palms',
@@ -29,10 +33,19 @@ const list = {
   }
 };
 
+/**
+ * Returns hotel list
+ * @return {Object}
+ */
 function getList() {
   return list;
 }
 
+/**
+ * Returns hotel detail
+ * @param  {String} id Hotel identifier
+ * @return {Object}    Hotel data
+ */
 function getDetail( id ) {
   return list[ id ];
 }
