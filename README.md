@@ -1,3 +1,4 @@
+
 # UI developer assignment
 
 The lastminute.com mobile website includes a number of pages allowing users to book flights and hotels. **We want to reimplement the hotel list page** using mobile-friendly, modular and testable principles.
