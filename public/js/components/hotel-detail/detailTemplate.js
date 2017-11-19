@@ -7,6 +7,9 @@ export const template = ( hotel ) => {
     <span class="hotel-detail-name">
       ${hotel.name}
     </span>
+    <span class="hotel-detail-price">
+      ${hotel.price}
+    </span>
     <div class="rating"></div>
     <div class="rating rating_${hotel.rating}"></div>
   </article>

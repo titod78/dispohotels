@@ -5,12 +5,26 @@ h1 {
   margin: 0;
 }
 
-.hotels-container {
-  margin: 20px;
+.hotel-detail {
+  position: relative;
+  background: #fff;
+  width: 250px;
+  margin: 5px;
+  padding: 10px;
+  list-style: none;
+  overflow: hidden;
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+
+  -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
 }
 
-.hotel-detail {
-  float: right;
+.hotel-detail img {
+  max-width: 200px;
 }
 
 .hotel-detail-name {
@@ -47,8 +61,8 @@ ul.hotel-list {
   position: relative;
   background: #fff;
   width: 250px;
-  margin: 0;
-  padding: 0;
+  margin: 5px;
+  padding: 10px;
   list-style: none;
   overflow: hidden;
 
@@ -96,4 +110,35 @@ a {
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+@media only screen and (min-width: 640px) {
+  nav {
+    float: left;
+  }
+
+  .hotel-detail {
+    float: left;
+    position: relative;
+    background: #fff;
+    width: 420px;
+    height: 200px;
+    margin: 5px;
+    padding: 10px;
+    list-style: none;
+    overflow: hidden;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .hotel-detail img {
+    max-width: 250px;
+    max-height: 190px;
+  }
 }
