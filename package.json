@@ -1,0 +1,13 @@
+{
+  "name": "fe-developer-assignment",
+  "version": "1.0.0",
+  "description": "FE developer assignment for lastminute.com",
+  "scripts": {
+    "start": "node ./scripts/dyson.js"
+  },
+  "author": "lastminute.com",
+  "private": true,
+  "devDependencies": {
+    "dyson": "git+https://github.com/webpro/dyson.git"
+  }
+}

@@ -1,0 +1,46 @@
+h1 {
+  background: #ec008c url(../../images/lmn-logo-white.svg) center no-repeat;
+  min-height: 56px;
+  border-bottom: 4px solid #930053;
+  margin: 0;
+}
+
+.hotels-container {
+  margin: 20px;
+}
+
+.hotel-detail {
+  position: relative;
+  left: 460px;
+  z-index: 1;
+}
+
+.hotel-detail-name {
+  vertical-align: top;
+}
+
+.rating {
+  width: 95px;
+  height: 19px;
+  background: url(../../images/ratings.png) -113px 0 no-repeat;
+}
+
+.rating_1 {
+  background-position: 0px -17px;
+}
+
+.rating_2 {
+  background-position: 0px -36px;
+}
+
+.rating_3 {
+  background-position: 0px -53px;
+}
+
+.rating_4 {
+  background-position: 0px -72px;
+}
+
+.rating_5 {
+  background-position: 0px -89px;
+}

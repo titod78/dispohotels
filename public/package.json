@@ -1,0 +1,24 @@
+{
+  "name": "Lastminute",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "webpack --progress --colors --watch",
+    "build": "webpack --progress --colors",
+    "test": "jasmine"
+  },
+  "author": "Tito",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "es6-template-string-loader": "^2.0.0",
+    "jasmine": "^2.8.0",
+    "uglify-js": "^3.0.24",
+    "uglifyjs-webpack-plugin": "^0.4.6",
+    "webpack": "^3.8.1"
+  },
+  "dependencies": {}
+}
