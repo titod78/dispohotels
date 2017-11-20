@@ -1,17 +1,18 @@
 export const template = ( hotel ) => {
   return `
   <article class="hotel-detail">
-    <span class="hotel-detail-image">
+    <div class="hotel-detail-image">
       <img src="${hotel.imgUrl}">
-    </span>
+    </div>
     <span class="hotel-detail-name">
       ${hotel.name}
     </span>
-    <span class="hotel-detail-price">
-      ${hotel.price}
-    </span>
-    <div class="rating"></div>
-    <div class="rating rating_${hotel.rating}"></div>
+    <span class="rating rating_${hotel.rating}"></span>
+    <div>
+      <span class="hotel-detail-price">
+        &pound;${hotel.price}
+      </span>
+    </div>
   </article>
   `;
 };
